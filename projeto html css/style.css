@@ -1,0 +1,106 @@
+/*tags*/
+p{
+color:white;
+font-size:15px;
+font-family:arial;
+text-shadow:1px 1px 1px #111111; 
+}
+    	
+body{
+	background-color:#000000; 
+}
+
+*{
+	margin:0;
+	padding:0; 
+	font-family: arial;
+} 
+
+header{
+	background-color:#35b8b0; 
+	height: 80px; /*tamanho/altura*/ 
+	padding:20px;
+}
+
+footer{
+	clear: both;
+	background-color:#35b8b0;
+	height:50px; 
+	text-align: center;
+	padding:10px;
+	font-size:12px; 
+	text-shadow:1px 1px 1px #111111; 
+}
+
+
+h1{
+	color:#FF7f50;
+	text-shadow:1px 1px 1px #111111; 
+	text-align: center;
+	margin:0 0 50px 0;
+}
+
+h2{
+	color:#FF7f50;
+	text-shadow: 1px 1px #111111;
+	text-align:left;
+	margin:50px 0px 50px 0px;
+
+
+}
+
+/*Divs*/
+#principal{
+	background-image:url("cidade.jpg"); 
+	clear:both;
+	background-size:100%; 
+	min-height: 400px;
+	padding:80px 0 0 0;
+	background-repeat:no-repeat;
+	background-attachment:fixed;  
+
+	
+}
+
+
+
+#menu{
+	margin-top:30px; 
+	float:right;
+}
+
+#menu a{
+	padding:52px 20px;
+	text-decoration:none;
+	color:#111;
+	text-shadow: 1px 1px #111111; 
+}
+	
+#menu a:hover{
+	background-color:#008B8B;
+	color:#35b8b0; 
+}
+
+
+/*Class*/
+.container{
+	width:960px;
+	margin:0 auto;
+
+}
+
+.efeito{
+	background-color:rgba(0,0,0,0.5);
+	padding: 80px 0 80px 0; 
+
+.novo{
+	color:#FF7f50;
+	text-shadow:1px 1px 1px #008B8B 
+}
+
+.icones{
+	float:right;
+	color:#111;
+	text-shadow: 1px 1px #111111;  
+}
+
